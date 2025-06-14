@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Doc - KPIs e Métricas</title>
+  <meta name="description" content="KPIs e métricas de sucesso para a Control Doc - sistema de conferência automática de pagamentos de planos de saúde para médicos autônomos">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="content-wrapper">
+        <!-- Navegação lateral -->
+        <aside class="sidebar">
+          <h3>Navegação</h3>
+          <ul class="side-nav">
+            <li><a href="analise-mercado.html">Análise de Mercado</a></li>
+            <li><a href="plano-negocios.html">Plano de Negócios</a></li>
+            <li><a href="cronograma.html">Cronograma</a></li>
+            <li><a href="guia-departamentos.html">Guia por Departamento</a></li>
+            <li><a href="riscos-mitigacao.html">Riscos e Mitigação</a></li>
+            <li><a href="kpis-metricas.html" class="active">KPIs e Métricas</a></li>
+            <li><a href="estrategias.html">Estratégias</a></li>
+            <li><a href="topicos-adicionais.html">Tópicos Adicionais</a></li>
+          </ul>
+        </aside>
+        
+        <!-- Conteúdo da página -->
+        <section class="main-content">
+          <div class="breadcrumbs">
+            <a href="../index.html">Home</a> &gt; <span>KPIs e Métricas</span>
+          </div>
+
+          <center><h1>KPIs e Métricas</h1></center>
+          
+          <article>
+            <div class="intro-text">
+              <p>Definir e acompanhar os Indicadores Chave de Performance (KPIs) corretos é fundamental para medir o progresso, tomar decisões informadas e garantir que a Control Doc esteja no caminho certo para atingir seus objetivos estratégicos. Abaixo estão sugestões de métricas essenciais, categorizadas por área, adaptadas ao modelo SaaS e ao mercado brasileiro de tecnologia médica.</p>
+            </div>
+
+            <div class="metrics-section" id="metricas-aquisicao">
+              <h2>1. Métricas de Aquisição de Clientes</h2>
+              
+              <div class="metric-item">
+                <h3>Número de Novos Clientes Pagos (Assinantes)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Quantidade de novos médicos/profissionais que assinam um plano pago por período (mês/trimestre).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede diretamente o crescimento da base de clientes pagantes.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Conversão (Visitante -> Trial/Demo)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de visitantes únicos do site que iniciam um teste gratuito ou solicitam uma demonstração.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Avalia a eficácia do site e das CTAs em atrair interesse inicial.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Conversão (Trial/Demo -> Pago)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de usuários em teste gratuito ou que fizeram demo e se tornaram clientes pagantes.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a eficácia do produto em demonstrar valor e a eficiência do processo de vendas/onboarding.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal (por coorte de início do trial/demo).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Custo de Aquisição de Cliente (CAC)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Custo total de marketing e vendas dividido pelo número de novos clientes adquiridos em um período.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Essencial para entender a sustentabilidade do crescimento. Deve ser analisado por canal.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal/Trimestral.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Leads Qualificados (MQL/SQL)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Número de leads gerados que atendem aos critérios de qualificação definidos pelo Marketing (MQL) e que são aceitos por Vendas (SQL).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a eficácia do topo e meio do funil de marketing e vendas.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Semanal/Mensal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="metrics-section" id="metricas-engajamento">
+              <h2>2. Métricas de Engajamento e Uso do Produto</h2>
+              
+              <div class="metric-item">
+                <h3>Usuários Ativos Mensais (MAU - Monthly Active Users)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Número de usuários únicos que realizaram alguma ação significativa no sistema durante o último mês.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Indica o tamanho da base de usuários engajados.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Ativação</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de novos usuários que completam uma ação chave (ex: realizar a primeira conferência bem-sucedida) dentro de um período definido (ex: primeira semana).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede o sucesso do onboarding e a rapidez com que os usuários percebem valor.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Semanal/Mensal (por coorte de cadastro).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Frequência de Uso</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Quantas vezes, em média, um usuário ativo utiliza o sistema por mês (logins, conferências realizadas).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Indica o quão integrado o Control Doc está na rotina do profissional.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Adoção de Funcionalidades Chave</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de usuários ativos que utilizam funcionalidades específicas (ex: gestão de glosas, relatórios X, integração Y).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Ajuda a entender quais partes do produto geram mais valor e onde pode haver oportunidades de melhoria ou treinamento.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="metrics-section" id="metricas-retencao">
+              <h2>3. Métricas de Retenção e Churn</h2>
+              
+              <div class="metric-item">
+                <h3>Taxa de Churn de Clientes (Customer Churn Rate)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de clientes pagantes que cancelaram a assinatura no período.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Uma das métricas mais críticas para SaaS. Churn alto inviabiliza o crescimento.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Churn de Receita (Revenue Churn Rate)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de MRR perdido devido a cancelamentos (gross churn) ou o líquido considerando expansões (net churn).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mostra o impacto financeiro do churn, especialmente importante se houver diferentes tiers de preço.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Lifetime Value (LTV)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Receita média total esperada de um cliente durante todo o tempo em que ele permanecer assinante.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Indica o valor de longo prazo de cada cliente adquirido.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Trimestral/Anual (cálculo baseado em ARPA e Churn).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Relação LTV/CAC</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Compara o valor vitalício de um cliente com o custo para adquiri-lo. (Idealmente > 3).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a sustentabilidade e a lucratividade do modelo de aquisição.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Trimestral.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="metrics-section" id="metricas-satisfacao">
+              <h2>4. Métricas de Satisfação do Cliente</h2>
+              
+              <div class="metric-item">
+                <h3>Net Promoter Score (NPS)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Mede a lealdade e a disposição dos clientes em recomendar o Control Doc (pergunta: "Em uma escala de 0 a 10, o quanto você recomendaria...").</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Indicador padrão de satisfação e potencial de crescimento orgânico.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Trimestral/Semestral (via pesquisa).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Customer Satisfaction Score (CSAT)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Mede a satisfação com interações específicas (ex: após um atendimento de suporte, após o onboarding).</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Avalia a qualidade de pontos de contato específicos.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Contínuo (após interações chave).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Tempo Médio de Primeira Resposta (Suporte)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Tempo médio que a equipe de suporte leva para dar a primeira resposta a um chamado.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Impacta diretamente a percepção de qualidade do suporte.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Diário/Semanal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Tempo Médio de Resolução (Suporte)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Tempo médio para resolver completamente um chamado de suporte.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a eficiência da equipe de suporte.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Semanal/Mensal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="metrics-section" id="metricas-financeiras">
+              <h2>5. Métricas Financeiras</h2>
+              
+              <div class="metric-item">
+                <h3>Receita Mensal Recorrente (MRR - Monthly Recurring Revenue)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Receita total normalizada esperada de todas as assinaturas ativas em um mês.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>A métrica financeira mais importante para um negócio SaaS.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Crescimento do MRR (MRR Growth Rate)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Variação percentual do MRR de um mês para o outro.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a velocidade de crescimento da receita.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Receita Média por Conta/Cliente (ARPA - Average Revenue Per Account)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>MRR dividido pelo número total de clientes pagantes.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Ajuda a entender o valor médio dos contratos e a identificar oportunidades de expansão (upsell).</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Margem Bruta (Gross Margin)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>(Receita - Custo dos Bens Vendidos) / Receita. Em SaaS, COGS inclui custos de infraestrutura, suporte, etc.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Indica a eficiência operacional na entrega do serviço.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal/Trimestral.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Fluxo de Caixa Operacional</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Dinheiro gerado ou consumido pelas operações principais do negócio.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Vital para a sobrevivência e sustentabilidade da empresa.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Mensal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="metrics-section" id="metricas-operacionais">
+              <h2>6. Métricas Operacionais/Técnicas</h2>
+              
+              <div class="metric-item">
+                <h3>Uptime da Plataforma</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de tempo em que o sistema esteve disponível e operacional.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Fundamental para a confiança e satisfação do cliente. (Meta: > 99.9%).</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Contínuo (via ferramentas de monitoramento).</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Tempo Médio de Carregamento (Páginas Chave)</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Tempo que as páginas mais importantes do sistema levam para carregar.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Impacta a experiência do usuário e o engajamento.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Contínuo.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Número de Bugs Críticos/Altos Abertos</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Quantidade de bugs que impedem funcionalidades essenciais ou causam grande impacto negativo.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a qualidade e estabilidade do software.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Diário/Semanal.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="metric-item">
+                <h3>Taxa de Sucesso na Importação de Extratos</h3>
+                <div class="metric-details">
+                  <div class="metric-description">
+                    <h4>Descrição:</h4>
+                    <p>Percentual de tentativas de importação de extratos que são concluídas sem erros.</p>
+                  </div>
+                  <div class="metric-importance">
+                    <h4>Importância:</h4>
+                    <p>Mede a robustez de uma funcionalidade central do Control Doc.</p>
+                  </div>
+                  <div class="metric-tracking">
+                    <h4>Acompanhamento:</h4>
+                    <p>Semanal/Mensal.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="note-box">
+              <p><em>Nota: A escolha final dos KPIs prioritários e a definição de metas específicas devem ser feitas pela equipe gestora da Control Doc, considerando a fase atual da empresa e os objetivos estratégicos de curto e médio prazo.</em></p>
+            </div>
+          </article>
+          
+          <div class="page-navigation">
+            <a href="riscos-mitigacao.html" class="prev-page"><i class="fas fa-arrow-left"></i> Riscos e Mitigação</a>
+            <a href="estrategias.html" class="next-page">Estratégias <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Rodapé -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Control Doc - Todos os direitos reservados</p>
+      </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Doc - Guia por Departamento</title>
+  <meta name="description" content="Guia de ações por departamento para a Control Doc - sistema de conferência automática de pagamentos de planos de saúde para médicos autônomos">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="content-wrapper">
+        <!-- Navegação lateral -->
+        <aside class="sidebar">
+          <h3>Navegação</h3>
+          <ul class="side-nav">
+            <li><a href="analise-mercado.html">Análise de Mercado</a></li>
+            <li><a href="plano-negocios.html">Plano de Negócios</a></li>
+            <li><a href="cronograma.html">Cronograma</a></li>
+            <li><a href="guia-departamentos.html" class="active">Guia por Departamento</a></li>
+            <li><a href="riscos-mitigacao.html">Riscos e Mitigação</a></li>
+            <li><a href="kpis-metricas.html">KPIs e Métricas</a></li>
+            <li><a href="estrategias.html">Estratégias</a></li>
+            <li><a href="topicos-adicionais.html">Tópicos Adicionais</a></li>
+          </ul>
+        </aside>
+        
+        <!-- Conteúdo da página -->
+        <section class="main-content">
+          <div class="breadcrumbs">
+            <a href="../index.html">Home</a> &gt; <span>Guia por Departamento</span>
+          </div>
+
+          <center><h1>Guia por Departamento</h1></center>
+          
+          <article>
+
+            <div class="department-section" id="produto-tecnologia">
+              <h2>1. Departamento de Produto/Tecnologia</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Desenvolver, manter e evoluir a plataforma Control Doc, garantindo estabilidade, segurança, escalabilidade e conformidade.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>Desenvolvimento do MVP (Fase 1):</h4>
+                <ul>
+                  <li>Priorizar funcionalidades essenciais para a conferência da Unimed (importação, cadastro, conferência, dashboard).</li>
+                  <li>Adotar arquitetura escalável e segura desde o início (cloud-native, microserviços se aplicável).</li>
+                  <li>Implementar testes automatizados (unitários, integração) e práticas de CI/CD (Integração Contínua/Entrega Contínua).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Segurança e Conformidade:</h4>
+                <ul>
+                  <li>Garantir conformidade com a LGPD (anonimização/pseudonimização de dados sensíveis, gestão de consentimento, segurança no armazenamento e acesso).</li>
+                  <li>Entender e aplicar padrões relevantes da ANS (TISS/TUSS) na lógica de conferência e tratamento de dados.</li>
+                  <li>Realizar testes de segurança periódicos (pentests).</li>
+                  <li>Implementar monitoramento de segurança e logs robustos.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Gestão de Dados dos Planos:</h4>
+                <ul>
+                  <li>Desenvolver mecanismos flexíveis para importar e interpretar os diferentes formatos de extratos/arquivos de pagamento da Unimed (e futuramente outros planos), que podem variar por regional.</li>
+                  <li>Criar processos para atualizar rapidamente o sistema em caso de mudanças nos formatos ou regras dos planos.</li>
+                  <li>Considerar APIs (se disponíveis e seguras) ou soluções de web scraping/RPA (com cautela) para automatizar a coleta de dados, sempre respeitando os termos de uso das operadoras.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Melhoria Contínua (Pós-Lançamento):</h4>
+                <ul>
+                  <li>Gerenciar o backlog do produto com base no feedback dos usuários (suporte, entrevistas, NPS), análise de dados de uso (analytics) e visão estratégica.</li>
+                  <li>Rodar ciclos de desenvolvimento ágeis (Scrum/Kanban) para entregar valor incrementalmente.</li>
+                  <li>Monitorar performance e estabilidade da plataforma, otimizando gargalos.</li>
+                  <li>Pesquisar e prototipar novas funcionalidades (gestão de glosas, relatórios avançados, integração com outros sistemas, IA para predição).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Infraestrutura:</h4>
+                <ul>
+                  <li>Gerenciar a infraestrutura em nuvem, otimizando custos e garantindo disponibilidade e escalabilidade.</li>
+                  <li>Manter rotinas de backup e planos de recuperação de desastres.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="department-section" id="comercial-vendas">
+              <h2>2. Departamento Comercial/Vendas</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Gerar receita através da aquisição de novos clientes (assinantes) e gerenciar o relacionamento com parceiros estratégicos.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>Definição e Execução da Estratégia de Vendas:</h4>
+                <ul>
+                  <li>Focar inicialmente em vendas self-service (via site) para o Tier Básico (MVP Unimed), impulsionadas pelo marketing.</li>
+                  <li>Estruturar um processo de Inside Sales (vendas internas) para abordar leads mais qualificados, realizar demonstrações online e fechar vendas de tiers superiores (Profissional, Clínicas) ou pacotes customizados no futuro.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Gestão de Preços e Planos:</h4>
+                <ul>
+                  <li>Implementar a estratégia de precificação definida no plano de negócios.</li>
+                  <li>Monitorar a performance de cada tier e propor ajustes baseados em dados e feedback.</li>
+                  <li>Gerenciar o período de free trial, focando na conversão para planos pagos.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Desenvolvimento de Parcerias:</h4>
+                <ul>
+                  <li>Identificar e prospectar ativamente parceiros estratégicos (contadores da área da saúde, associações médicas, consultores, empresas de software complementar).</li>
+                  <li>Negociar e formalizar acordos de parceria (comissões por indicação, co-marketing, integração técnica).</li>
+                  <li>Manter relacionamento contínuo com parceiros, oferecendo treinamento e suporte.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Feedback de Mercado:</h4>
+                <ul>
+                  <li>Coletar insights do processo de vendas e de conversas com prospects sobre necessidades, objeções e percepção de valor, repassando para Produto e Marketing.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Métricas:</h4>
+                <ul>
+                  <li>Acompanhar métricas de vendas (Novos MRR, taxa de conversão de trial para pago, CAC por canal, ciclo de vendas).</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="department-section" id="marketing">
+              <h2>3. Departamento de Marketing</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Gerar leads qualificados, construir a marca Control Doc e comunicar a proposta de valor ao público-alvo.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>Marketing Digital:</h4>
+                <ul>
+                  <li><strong>Marketing de Conteúdo:</strong> Produzir e distribuir conteúdo relevante (blog posts, ebooks, webinars) sobre gestão financeira para médicos, glosas, TISS/TUSS, otimização de recebíveis. Foco total em SEO.</li>
+                  <li><strong>Mídia Paga:</strong> Gerenciar campanhas de Google Ads e Meta Ads segmentadas para médicos autônomos, otimizando para conversão (pedidos de trial/demo).</li>
+                  <li><strong>Redes Sociais:</strong> Construir e engajar a comunidade no LinkedIn e Instagram, compartilhando conteúdo, dicas e novidades.</li>
+                  <li><strong>Email Marketing:</strong> Criar fluxos de nutrição para leads, segmentando por interesse e estágio no funil.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Gestão do Website (www.controldoc.org):</h4>
+                <ul>
+                  <li>Garantir que o site seja claro, rápido, otimizado para SEO e conversão.</li>
+                  <li>Manter conteúdo atualizado (produto, preços, blog, FAQs).</li>
+                  <li>Implementar e analisar ferramentas de analytics (Google Analytics, Hotjar).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Branding e Comunicação:</h4>
+                <ul>
+                  <li>Desenvolver e manter a identidade visual e o tom de voz da marca.</li>
+                  <li>Criar materiais de marketing (apresentações, vídeos curtos explicativos).</li>
+                  <li>Gerenciar a reputação online (monitorar menções, responder avaliações).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Lançamento e Promoção:</h4>
+                <ul>
+                  <li>Planejar e executar as campanhas de lançamento (beta, oficial, novos planos/funcionalidades).</li>
+                  <li>Coletar e divulgar depoimentos de clientes (com autorização).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Métricas:</h4>
+                <ul>
+                  <li>Acompanhar métricas de marketing (visitantes do site, leads gerados, CPL, taxa de conversão de lead para cliente, engajamento em redes sociais).</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="department-section" id="financeiro">
+              <h2>4. Departamento Financeiro</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Gerenciar as finanças da empresa, garantindo a saúde financeira, o fluxo de caixa e a conformidade fiscal.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>Gestão de Receitas (Assinaturas):</h4>
+                <ul>
+                  <li>Implementar e gerenciar o sistema de faturamento e cobrança recorrente (gateway de pagamento, emissão de notas fiscais).</li>
+                  <li>Controlar inadimplência e processos de recuperação.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Gestão de Despesas:</h4>
+                <ul>
+                  <li>Controlar custos operacionais (infraestrutura, ferramentas, marketing, pessoal).</li>
+                  <li>Gerenciar pagamentos a fornecedores e parceiros.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Fluxo de Caixa e Orçamento:</h4>
+                <ul>
+                  <li>Monitorar e projetar o fluxo de caixa.</li>
+                  <li>Elaborar e acompanhar o orçamento anual/mensal.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Contabilidade e Fiscal:</h4>
+                <ul>
+                  <li>Garantir a correta escrituração contábil e o cumprimento das obrigações fiscais (impostos, declarações) - possivelmente com apoio de contabilidade externa especializada em startups de tecnologia.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Relatórios e Análises:</h4>
+                <ul>
+                  <li>Preparar relatórios financeiros periódicos (DRE, Balanço, Fluxo de Caixa).</li>
+                  <li>Calcular e analisar métricas financeiras chave (MRR, Churn, LTV, CAC, Margem Bruta).</li>
+                  <li>Fornecer dados para suportar decisões estratégicas (precificação, investimentos).</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="department-section" id="atendimento-suporte">
+              <h2>5. Departamento de Atendimento/Suporte ao Cliente</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Garantir a satisfação e o sucesso dos clientes, oferecendo suporte eficiente e coletando feedback valioso.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>Canais de Suporte:</h4>
+                <ul>
+                  <li>Definir e operar os canais de suporte (ex: chat no app/site, email, telefone para casos críticos).</li>
+                  <li>Estabelecer SLAs (tempos de resposta e resolução) claros e realistas.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Gestão de Tickets:</h4>
+                <ul>
+                  <li>Utilizar uma ferramenta de help desk para registrar, priorizar e acompanhar os chamados de suporte.</li>
+                  <li>Analisar os tipos de chamados para identificar problemas recorrentes, necessidades de treinamento ou melhorias no produto.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Base de Conhecimento (FAQ):</h4>
+                <ul>
+                  <li>Criar e manter uma base de conhecimento abrangente e atualizada (artigos, tutoriais em vídeo) para autoatendimento dos usuários.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Onboarding de Clientes:</h4>
+                <ul>
+                  <li>Desenvolver materiais e processos para ajudar novos usuários a começarem a usar o Control Doc rapidamente e extrair valor (ex: tour guiado no sistema, emails de boas-vindas com dicas).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Coleta de Feedback:</h4>
+                <ul>
+                  <li>Implementar pesquisas de satisfação (NPS, CSAT).</li>
+                  <li>Coletar feedback proativamente durante interações de suporte.</li>
+                  <li>Organizar e repassar o feedback para a equipe de Produto.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Sucesso do Cliente (Customer Success - Futuro):</h4>
+                <ul>
+                  <li>À medida que a base cresce, estruturar uma função de CS para acompanhar proativamente os clientes (especialmente os maiores), garantir que estejam atingindo seus objetivos com o Control Doc e identificar oportunidades de upsell/cross-sell.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="department-section" id="compliance-legal">
+              <h2>6. Departamento de Compliance/Legal</h2>
+              <div class="department-focus">
+                <h3>Foco Principal:</h3>
+                <p>Garantir que a empresa opere em conformidade com todas as leis, regulamentos e normas aplicáveis, especialmente LGPD e regulamentações da ANS.</p>
+              </div>
+              
+              <h3>Ações Chave:</h3>
+              
+              <div class="action-group">
+                <h4>LGPD:</h4>
+                <ul>
+                  <li>Manter a Política de Privacidade e os Termos de Uso atualizados e em conformidade.</li>
+                  <li>Garantir que todos os processos internos (coleta, tratamento, armazenamento, exclusão de dados) estejam alinhados à LGPD.</li>
+                  <li>Gerenciar solicitações de titulares de dados (acesso, correção, exclusão).</li>
+                  <li>Promover treinamentos internos sobre proteção de dados.</li>
+                  <li>Nomear um Encarregado de Proteção de Dados (DPO), se necessário.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Regulamentação da Saúde (ANS):</h4>
+                <ul>
+                  <li>Monitorar mudanças nas normas da ANS que possam impactar o produto (ex: novas versões do TISS, regras de remuneração).</li>
+                  <li>Garantir que o sistema trate corretamente os padrões e códigos exigidos (TUSS).</li>
+                  <li><em>Importante:</em> Esclarecer que o Control Doc é uma ferramenta de <em>conferência</em> para o prestador, não um sistema de faturamento que envia dados diretamente para a ANS ou operadoras (a menos que isso mude no futuro), o que pode simplificar algumas exigências diretas da ANS, mas a conformidade no tratamento dos dados é essencial.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Contratos:</h4>
+                <ul>
+                  <li>Revisar e gerenciar contratos com clientes (Termos de Uso), parceiros e fornecedores.</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Propriedade Intelectual:</h4>
+                <ul>
+                  <li>Proteger a propriedade intelectual da empresa (marca, software).</li>
+                </ul>
+              </div>
+              
+              <div class="action-group">
+                <h4>Consultoria Jurídica:</h4>
+                <ul>
+                  <li>Manter relacionamento com assessoria jurídica especializada em direito digital, proteção de dados e saúde suplementar para consultas e validações.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          
+          <div class="page-navigation">
+            <a href="cronograma.html" class="prev-page"><i class="fas fa-arrow-left"></i> Cronograma</a>
+            <a href="riscos-mitigacao.html" class="next-page">Riscos e Mitigação <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Rodapé -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Control Doc - Todos os direitos reservados</p>
+      </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
